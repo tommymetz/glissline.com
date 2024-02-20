@@ -83,19 +83,6 @@ header{
   }
 }
 
-  #logo{
-    width:300px;
-    margin:0 auto;
-  }
-  @media(max-width:500px){
-    #logo{
-      width:200px;
-    }
-  }
-    #logo img{
-      width:100%;
-    }
-
 /* CONTENT */
 #content{
   max-width: 600px;

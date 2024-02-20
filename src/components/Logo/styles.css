@@ -1,0 +1,29 @@
+#logo{
+  position: relative;
+  width:300px;
+  margin:0 auto;
+}
+#logo.big{
+  width:600px;
+}
+@media(max-width:600px){
+  #logo{
+    width:200px;
+  }
+}
+
+  #logo img{
+    width:100%;
+  }
+    #logo img.opaque{
+      opacity: 0.25;
+    }
+
+  .logo-three{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #333333;
+  }
+
