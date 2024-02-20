@@ -25,7 +25,7 @@ export const Logo = () => {
     window.addEventListener('resize', resize);
     resize();
     return () => { window.removeEventListener('resize', resize); }
-  }, []);
+  }, [resize]);
 
   useEffect(() => {
     // Scene Setup
