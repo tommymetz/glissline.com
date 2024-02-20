@@ -12,7 +12,8 @@ export const Logo = () => {
   const [width, setWidth] = useState(0)
   const [height, setHeight] = useState(0)
 
-  const resize = () => {
+  // eslint-disable-next-line 
+  const resize = () => { 
     const newWidth = logoContainerRef.current.offsetWidth
     const newHeight = newWidth * logoRatio
     if(newWidth !== width){
@@ -62,6 +63,7 @@ export const Logo = () => {
     // Cleanup
     return () => {
       if (refContainer.current && renderer.domElement) {
+        // eslint-disable-next-line 
         refContainer.current.removeChild(renderer.domElement);
       }
     };
