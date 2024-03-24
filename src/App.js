@@ -7,11 +7,21 @@ function App() {
   return (
     <div id="container">
       <header>
-        <Logo />
+        {/* <Logo /> */}
       </header>
       {showContent && (
         <>
           <div id="content">
+            <div className="section">
+              <img src="img/press-photo-glissline.jpg" alt="press" />
+              <p>
+                Glissline is Colorado based abstract electronic producer Tom Metz.
+                He has performed alongside many international acts including Phantogram, Max Tundra, Ulrich Schnauss, Black Moth Super Rainbow and Starfucker.
+                Growing up in Fort Collins and moving to Denver in 2002, he has been heavily involved in the DIY/Indie music scenes of Colorado.
+                He has released music with Denver labels Plastic Sound Supply, Bocumast, Laserpalace and more recently with the new Denver imprint Multidim Records.
+              </p>
+            </div>
+
             <div className="section">
               <h1>LIVE:</h1>
               <ul>
@@ -35,16 +45,6 @@ function App() {
                 <li>2017/09/02 - Berlin - <a href="https://www.facebook.com/events/478548029172783" target="_blank" rel="noreferrer">Gloria Studios</a></li>
                 <li>2017/07/29 - Denver - <a href="https://www.facebook.com/events/122656855000317" target="_blank" rel="noreferrer">Deep Club</a></li>
               </ul>
-            </div>
-
-            <div className="section">
-              <img src="img/press-photo-glissline.jpg" alt="press" />
-              <p>
-                Glissline is Colorado based abstract electronic producer Tom Metz.
-                He has performed alongside many international acts including Phantogram, Max Tundra, Ulrich Schnauss, Black Moth Super Rainbow and Starfucker.
-                Growing up in Fort Collins and moving to Denver in 2002, he has been heavily involved in the DIY/Indie music scenes of Colorado.
-                He has released music with Denver labels Plastic Sound Supply, Bocumast, Laserpalace and more recently with the new Denver imprint Multidim Records.
-              </p>
             </div>
 
             <div className="section">
