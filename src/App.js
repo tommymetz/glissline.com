@@ -23,7 +23,7 @@ function App() {
             </div>
 
             <div className="section">
-              <h1>LIVE:</h1>
+              <h1>2024 LIVE DATES:</h1>
               <ul>
                 <li>2024/02/28 - Denver - <a href="https://broadwayroxy.com" target="_blank" rel="noreferrer">Roxy on Broadway</a></li>
                 <li>2024/08/05 - Denver - <a href="https://multidim.net" target="_blank" rel="noreferrer">Multidim Listening Lawn</a></li>
