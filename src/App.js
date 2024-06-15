@@ -24,12 +24,101 @@ function App() {
 
             <div className="section">
               <h1>2024 LIVE DATES:</h1>
+              <ul className="live-dates">
+                <li className="date-item">
+                  <div className="date">2024/08/03</div>
+                  <div className="location">Denver</div>
+                  <div className="link"><a href="https://multidim.net" target="_blank" rel="noreferrer">Multidim Listening Lawn</a></div>
+                </li>
+              </ul>
+              <h2 style={{ marginBottom: '15px', opacity: 0.5 }}>PAST SHOWS:</h2>
+              <ul className="past-shows" style={{ paddingTop: 0, opacity: 0.5 }}>
+                <li className="date-item">
+                  <div className="date">2024/02/28</div>
+                  <div className="location">Denver</div>
+                  <div className="link"><a href="https://broadwayroxy.com" target="_blank" rel="noreferrer">Roxy on Broadway</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2019/10/18</div>
+                  <div className="location">Berlin</div>
+                  <div className="link"><a href="http://www.madameclaude.de" target="_blank" rel="noreferrer">Madame Claude</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2019/07/26-28</div>
+                  <div className="location">Denver</div>
+                  <div className="link"><a href="https://www.undergroundmusicshowcase.com" target="_blank" rel="noreferrer">The Underground Music Showcase</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2019/05/16</div>
+                  <div className="location">Denver</div>
+                  <div className="link"><a href="https://www.denverlibrary.org/content/ross-broadway-branch-library" target="_blank" rel="noreferrer">Ross-Broadway Branch Library</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2019/02/13</div>
+                  <div className="location">Denver</div>
+                  <div className="link"><a href="https://www.facebook.com/events/2230505183905420/" target="_blank" rel="noreferrer">Lost Lake</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2018/10/12</div>
+                  <div className="location">Denver</div>
+                  <div className="link"><a href="https://www.facebook.com/events/478402579328465/" target="_blank" rel="noreferrer">Multidim Launch Party</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2018/07/28</div>
+                  <div className="location">Denver</div>
+                  <div className="link"><a href="https://www.theums.com" target="_blank" rel="noreferrer">UMS</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2018/06/11</div>
+                  <div className="location">Denver</div>
+                  <div className="link"><a href="https://www.facebook.com/events/1886050188072477/" target="_blank" rel="noreferrer">The Ancient Elk House</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2018/05/12</div>
+                  <div className="location">Berlin</div>
+                  <div className="link"><a href="http://www.madameclaude.de" target="_blank" rel="noreferrer">Madame Claude</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2018/04/25</div>
+                  <div className="location">Fort Collins</div>
+                  <div className="link"><a href="http://focomx.focoma.org/" target="_blank" rel="noreferrer">FOCOMX</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2018/04/05</div>
+                  <div className="location">Denver</div>
+                  <div className="link"><a href="http://physicopera.com/" target="_blank" rel="noreferrer">Syntax</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2018/01/30</div>
+                  <div className="location">Denver</div>
+                  <div className="link"><a href="https://www.facebook.com/events/155266328588733/" target="_blank" rel="noreferrer">Animal Shelter</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2017/09/09</div>
+                  <div className="location">Berlin</div>
+                  <div className="link"><a href="http://www.madameclaude.de" target="_blank" rel="noreferrer">Madame Claude</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2017/09/02</div>
+                  <div className="location">Berlin</div>
+                  <div className="link"><a href="https://www.facebook.com/events/478548029172783" target="_blank" rel="noreferrer">Gloria Studios</a></div>
+                </li>
+                <li className="date-item">
+                  <div className="date">2017/07/29</div>
+                  <div className="location">Denver</div>
+                  <div className="link"><a href="https://www.facebook.com/events/122656855000317" target="_blank" rel="noreferrer">Deep Club</a></div>
+                </li>
+              </ul>
+            </div>
+
+            {/* <div className="section">
+              <h1>2024 LIVE DATES:</h1>
               <ul>
-                <li>2024/02/28 - Denver - <a href="https://broadwayroxy.com" target="_blank" rel="noreferrer">Roxy on Broadway</a></li>
-                <li>2024/08/05 - Denver - <a href="https://multidim.net" target="_blank" rel="noreferrer">Multidim Listening Lawn</a></li>
+                <li>2024/08/03 - Denver - <a href="https://multidim.net" target="_blank" rel="noreferrer">Multidim Listening Lawn</a></li>
               </ul>
               <h2 style={{marginBottom: '15px', opacity: 0.5}}>PAST SHOWS:</h2>
               <ul style={{paddingTop: 0, opacity: 0.5}}>
+                <li>2024/02/28 - Denver - <a href="https://broadwayroxy.com" target="_blank" rel="noreferrer">Roxy on Broadway</a></li>
                 <li>2019/10/18 - Berlin - <a href="http://www.madameclaude.de" target="_blank" rel="noreferrer">Madame Claude</a></li>
                 <li>2019/07/26-28 - Denver - <a href="https://www.undergroundmusicshowcase.com" target="_blank" rel="noreferrer">The Underground Music Showcase</a></li>
                 <li>2019/05/16 - Denver - <a href="https://www.denverlibrary.org/content/ross-broadway-branch-library" target="_blank" rel="noreferrer">Ross-Broadway Branch Library</a></li>
@@ -45,7 +134,7 @@ function App() {
                 <li>2017/09/02 - Berlin - <a href="https://www.facebook.com/events/478548029172783" target="_blank" rel="noreferrer">Gloria Studios</a></li>
                 <li>2017/07/29 - Denver - <a href="https://www.facebook.com/events/122656855000317" target="_blank" rel="noreferrer">Deep Club</a></li>
               </ul>
-            </div>
+            </div> */}
 
             <div className="section">
               <h1>CONNECT</h1>

@@ -100,3 +100,22 @@ footer{
   text-align: center;
   padding: 30px 0;
 }
+
+/* Live dates */
+  .date-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .date, .location, .link {
+    flex: 1;
+    text-align: left;
+  }
+  .location {
+		flex: 0.8;
+    /* text-align: center; */
+  }
+  .link {
+		flex: 2;
+    text-align: right;
+  }
