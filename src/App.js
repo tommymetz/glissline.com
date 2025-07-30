@@ -23,16 +23,21 @@ function App() {
             </div>
 
             <div className="section">
-              <h1>2024 LIVE DATES:</h1>
+              {/* <h1>2024 LIVE DATES:</h1>
               <ul className="live-dates">
                 <li className="date-item">
                   <div className="date">2024/08/03</div>
                   <div className="location">Denver</div>
                   <div className="link"><a href="https://multidim.net" target="_blank" rel="noreferrer">Multidim Listening Lawn</a></div>
                 </li>
-              </ul>
+              </ul> */}
               <h2 style={{ marginBottom: '15px', opacity: 0.5 }}>PAST SHOWS:</h2>
               <ul className="past-shows" style={{ paddingTop: 0, opacity: 0.5 }}>
+                <li className="date-item">
+                  <div className="date">2024/08/03</div>
+                  <div className="location">Denver</div>
+                  <div className="link"><a href="https://multidim.net" target="_blank" rel="noreferrer">Multidim Listening Lawn</a></div>
+                </li>
                 <li className="date-item">
                   <div className="date">2024/02/28</div>
                   <div className="location">Denver</div>
@@ -44,7 +49,7 @@ function App() {
                   <div className="link"><a href="http://www.madameclaude.de" target="_blank" rel="noreferrer">Madame Claude</a></div>
                 </li>
                 <li className="date-item">
-                  <div className="date">2019/07/26-28</div>
+                  <div className="date">2019/07/27</div>
                   <div className="location">Denver</div>
                   <div className="link"><a href="https://www.undergroundmusicshowcase.com" target="_blank" rel="noreferrer">The Underground Music Showcase</a></div>
                 </li>
@@ -139,12 +144,17 @@ function App() {
             <div className="section">
               <h1>CONNECT</h1>
               <p>
-                <a href="https://www.facebook.com/glissline1" target="_blank" rel="noreferrer">facebook</a><br />
-                <a href="https://soundcloud.com/glissline" target="_blank" rel="noreferrer">soundcloud</a><br />
-                <a href="https://glissline.bandcamp.com" target="_blank" rel="noreferrer">bandcamp</a><br />
+                <a href="https://glissline.bandcamp.com" target="_blank" rel="noreferrer">Bandcamp</a><br />
+                <a href="https://www.facebook.com/glissline1" target="_blank" rel="noreferrer">Facebook</a><br />
+                <a href="https://soundcloud.com/glissline" target="_blank" rel="noreferrer">SoundCloud</a><br />
                 <a href="mailto:tommymetz@gmail.com" target="_blank" rel="noreferrer">tommymetz@gmail.com</a><br />
                 <a href="GlisslineEPK.pdf" target="_blank" rel="noreferrer">electronic press kit</a><br />
               </p>
+            </div>
+
+            <div className="section">
+              <img src="img/cubism-paintings-with-sound.jpg" alt="cubism paintings with sound" />
+              <iframe title="cubism paintings with sound embed" style={{border: 0, height: '307px'}} src="https://bandcamp.com/EmbeddedPlayer/album=431575906/size=large/bgcol=ffffff/linkcol=7137dc/artwork=none/transparent=true/" seamless></iframe>
             </div>
 
             <div className="section">
